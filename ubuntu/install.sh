@@ -31,7 +31,7 @@ sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-co
 cd $HOME/bin
 
 # Get project from github
-[[ ! -e $HOME/bin/caffe ]] && git clone https://github.com/BVLC/caffe.git
+[[ ! -e $HOME/bin/caffe ]] && git clone -b dev https://github.com/BVLC/caffe.git
 
 # Install other python requirements
 [[ -e $HOME/bin/caffe/python/requirements.txt ]] && sudo pip install -r $HOME/bin/caffe/python/requirements.txt
