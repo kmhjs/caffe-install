@@ -37,7 +37,7 @@ cd $HOME/bin
 [[ -e $HOME/bin/caffe/python/requirements.txt ]] && sudo pip install -r $HOME/bin/caffe/python/requirements.txt
 
 # Update make file
-[[ -e $HOME/bin/caffe/Makefile.config ]] && cat $HOME/bin/caffe/Makefile.config.example | sed 's!# CPU_ONLY!CPU_ONLY!g' > $HOME/bin/caffe/Makefile.config
+[[ -e $HOME/bin/caffe/Makefile.config.example ]] && cat $HOME/bin/caffe/Makefile.config.example | sed 's!# CPU_ONLY!CPU_ONLY!g' > $HOME/bin/caffe/Makefile.config
 
 # Make and check
 [[ -e $HOME/bin/caffe ]] && cd $HOME/bin/caffe
