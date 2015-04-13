@@ -44,3 +44,4 @@ cd $HOME/bin
 [[ -e $HOME/bin/caffe/Makefile.config ]] && make all
 [[ -e $HOME/bin/caffe/Makefile.config ]] && make test
 [[ -e $HOME/bin/caffe/Makefile.config ]] && make runtest
+[[ -e $HOME/bin/caffe/Makefile.config ]] && make pycaffe
